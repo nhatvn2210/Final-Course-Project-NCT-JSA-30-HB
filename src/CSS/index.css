@@ -1,0 +1,36 @@
+/* General style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+/* Style class */
+/* Container */
+.container{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+/* Flex box */
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+/* Default text decoration */
+.decoration-none{
+    text-decoration: none;
+}
+.color-black{
+    color: #000;
+}
+
+/* Content style */
+/* Slideshow / Carousel */

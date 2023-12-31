@@ -1,0 +1,25 @@
+/* Header style */
+header{
+    background-image: url(/assets/images/navbar-background.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+nav{
+    font-size: 20px;
+}
+nav .menu{
+    list-style: none;
+    text-transform: capitalize;
+    width: 40%;
+}
+nav .logo{
+    width: 20%;
+    text-align: center;
+}
+nav .logo img{
+    width: 100px;
+}
+nav .signin_signup{
+    width: 20%;
+}
