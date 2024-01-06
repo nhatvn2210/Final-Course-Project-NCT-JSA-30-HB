@@ -1,0 +1,98 @@
+/* General style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+/* Style class */
+/* Bold letter */
+.bold-letter {
+    font-weight: bolder;
+}
+/* Heading 1 */
+.h1{
+    font-weight: bolder !important;
+    text-align: center;
+}
+/* Container */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Block display */
+.d-block{
+    display: block;
+}
+/* Flex box */
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.items-center {
+    align-items: center;
+}
+
+/* Position */
+.position-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+/* Default text decoration */
+.decoration-none {
+    text-decoration: none;
+}
+
+.color-black {
+    color: #000;
+}
+
+/* Break div */
+.break-div {
+    height: 10vw;
+}
+
+/* Animation */
+@keyframes fly-in {
+    from {
+        position: relative;
+        top: 20px;
+        opacity: 0;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        opacity: 100%;
+    }
+}
+
+/* Animation Class */
+.animation-fly-in {
+    animation-name: fly-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+/* Background */
+.background {
+    background-image: url(/assets/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+}

@@ -1,0 +1,60 @@
+/* Sign up style */
+.sign-up-form {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 60vw !important;
+    height: 80vh;
+    margin-top: 80px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.h1 {
+    margin: 0 0 10px 0;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pi-div,
+.acc-div {
+    width: 40%;
+}
+
+.full-name-div,
+.birthday-div,
+.gender-div,
+.username-div,
+.phone-number-div,
+.password-div {
+    margin: 10px 0;
+}
+
+.text-input,
+.date-input {
+    border: none;
+    border-bottom: solid #000 1px;
+    width: 100%;
+}
+
+.text-input,
+.date-input:hover {
+    outline: none;
+}
+
+.submit-btn-div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF0303;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}

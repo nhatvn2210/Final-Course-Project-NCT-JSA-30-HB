@@ -1,0 +1,59 @@
+/* Sign in style */
+.sign-in-form {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 60vw !important;
+    height: 80vh;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.sign-in-form .left-form {
+    width: 50%;
+}
+
+.sign-in-form .left-form input {
+    width: 90%;
+    margin: 10px;
+}
+
+.sign-in-form .left-form .text-input{
+    width: 90%;
+    border: none;
+    border-bottom: #000000 solid 1px;
+}
+.sign-in-form .left-form .text-input:focus{
+    outline: none;
+}
+
+.sign-in-form .left-form a{
+    font-size: 16px;
+    text-align: right;
+    margin: 0 5px 0 0 ;
+}
+
+.sign-in-form .left-form p{
+    text-align: center;
+}
+.sign-in-form .left-form .signin-icon{
+    width: 100%;
+}
+.sign-in-form .left-form .signin-icon i{
+    font-size: 40px;
+}
+.sign-in-form .left-form .submit-btn {
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #FF0303;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px ;
+}
+.sign-in-form .right-img {
+    width: 50%;
+}
+
+.sign-in-form .right-img img {
+    width: 100%;
+}

@@ -1,36 +1,58 @@
-/* General style*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Slab', sans-serif;
-}
-
-/* Style class */
-/* Container */
-.container{
-    max-width: 90vw;
-    margin: 0 auto;
-}
-/* Flex box */
-.d-flex{
-    display: flex;
-}
-
-.justify-between{
-    justify-content: space-between;
-}
-
-.items-center{
-    align-items: center;
-}
-/* Default text decoration */
-.decoration-none{
-    text-decoration: none;
-}
-.color-black{
-    color: #000;
-}
-
 /* Content style */
-/* Slideshow / Carousel */
+.content {
+    width: 100%;
+    font-size: 30px;
+}
+
+/* Same style */
+.traditional-food,
+.traditional-clothes,
+.traditional-festival {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Traditional Food */
+.traditional-food h1 {
+    margin-bottom: 50px;
+}
+
+.traditional-food .content .left-img {
+    width: 50%;
+}
+
+.traditional-food .content .left-img img {
+    width: 90%;
+    transform: rotate(-8deg);
+}
+
+.traditional-food .content .right-paragraph {
+    width: 50%;
+}
+
+/* Traditional Clothes */
+.traditional-clothes .content .right-img {
+    width: 50%;
+}
+
+.content .right-img img {
+    width: 70%;
+    transform: rotate(8deg);
+    position: relative;
+    left: 10%;
+    top: 15px;
+}
+
+.traditional-clothes .left-paragraph {
+    width: 50%;
+}
+
+/* Traditional Festival */
+.content .img img {
+    width: 30%;
+}
+
+.traditional-clothes .content .paragraph {
+    font-size: 18px;
+}
