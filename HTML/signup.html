@@ -34,7 +34,7 @@
         <main class="animation-fly-in">
             <div class="container sign-up-form">
                 <h1 class="h1">Sign up</h1>
-                <form action="" class="w-100">
+                <form action="" class="w-100" id="sign-up-form">
                     <div class="content d-flex justify-around">
                         <div class="pi-div">
                             <div class="full-name-div">
@@ -48,15 +48,15 @@
                             <div class="gender-div">
                                 <label for="" class="d-block">Gender</label>
                                 <div class="male-div">
-                                    <input type="radio" name="gender" id="male">
+                                    <input type="radio" name="gender" id="male" value="male">
                                     <label for="male">male</label>
                                 </div>
                                 <div class="female-div">
-                                    <input type="radio" name="gender" id="female">
+                                    <input type="radio" name="gender" id="female" value="female">
                                     <label for="female">female</label>
                                 </div>
                                 <div class="others-div">
-                                    <input type="radio" name="gender" id="others">
+                                    <input type="radio" name="gender" id="others" value="others">
                                     <label for="others">others</label>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <div class="submit-btn-div">
-                        <input type="submit" value="Sign up" class="submit-btn">
+                        <input type="submit" value="Sign up" class="submit-btn" id="submit-btn">
                     </div>
                 </form>
             </div>
@@ -87,7 +87,7 @@
         <!-- End content -->
     </div>
     <!-- Script -->
-    <script src="../src/JS/insertNav.js"></script>
+    <script src="../src/JS/signUpScript.js"></script>
     <!-- Background -->
     <div class="background position-fixed"></div>
 </body>

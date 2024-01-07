@@ -11,20 +11,32 @@ function insertNav() {
                 <img src="../assets/images/logo.png" alt="">
             </div>
             <ul class="menu d-flex justify-between">
-                <li class="menu__item">
+                <li class="menu__item has-dropdown">
                     <a href="./index.html" class="decoration-none color-black">Home</a>
+                    <i class="fa-solid fa-chevron-right dropdown-arrow"></i>
+                    <ul class="dropdown-container">
+                        <li>
+                            <a href="../HTML/index.html#traditional-food" class="color-black decoration-none">Món ăn truyền thống</a>
+                        </li>
+                        <li>
+                            <a href="../HTML/index.html#traditional-clothes" class="color-black decoration-none">Trang phục truyền thống</a>
+                        </li>
+                        <li>
+                            <a href="../HTML/index.html#traditional-festival" class="color-black decoration-none">Lễ hội truyền thống</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="menu__item">
-                    <a href="./home.html" class="decoration-none color-black">Shop</a>
+                    <a href="./shop.html" class="decoration-none color-black">Shop</a>
                 </li>
                 <li class="menu__item">
-                    <a href="./home.html" class="decoration-none color-black">Blog</a>
+                    <a href="./blog.html" class="decoration-none color-black">Blog</a>
                 </li>
                 <li class="menu__item">
-                    <a href="./home.html" class="decoration-none color-black">About us</a>
+                    <a href="./contact.html" class="decoration-none color-black">Contact</a>
                 </li>
                 <li class="menu__item">
-                    <a href="./home.html" class="decoration-none color-black">Contact</a>
+                    <a href="./music.html" class="decoration-none color-black">Music</a>
                 </li>
             </ul>
             <div class="signin_signup d-flex">

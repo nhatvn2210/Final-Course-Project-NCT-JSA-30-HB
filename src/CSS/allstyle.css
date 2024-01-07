@@ -11,20 +11,32 @@
 .bold-letter {
     font-weight: bolder;
 }
+
 /* Heading 1 */
-.h1{
+.h1 {
     font-weight: bolder !important;
     text-align: center;
 }
+
 /* Container */
+main{
+    margin: 80px;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* Block display */
-.d-block{
+.d-block {
     display: block;
 }
+
+/* Hiding display */
+.d-none {
+    display: none;
+}
+
 /* Flex box */
 .d-flex {
     display: flex;
@@ -33,16 +45,26 @@
 .justify-between {
     justify-content: space-between;
 }
+
 .justify-evenly {
     justify-content: space-evenly;
 }
-.justify-around{
+
+.justify-around {
     justify-content: space-around;
 }
+
+.justify-center{
+    justify-content: center;
+}
+
 .items-center {
     align-items: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
 /* Position */
 .position-fixed {
     position: fixed;

@@ -29,3 +29,40 @@ nav .logo img {
 nav .signin_signup {
     width: 20%;
 }
+
+/* Dropdown style */
+.has-dropdown{
+    position: relative;
+}
+.dropdown-container {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    display: none;
+}
+
+.dropdown-arrow{
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    transition: rotate .3s;
+}
+
+.has-dropdown:hover .dropdown-arrow{
+    rotate: 90deg;
+}
+
+.has-dropdown .dropdown-container li{
+    transition: background-color .3s, color .3s;
+    padding: 10px;
+}
+.has-dropdown:hover .dropdown-container{
+    display: block;
+    position: absolute;
+    width: max-content;
+    background-color: #FFFFFF;
+}
+.has-dropdown:hover .dropdown-container li:hover{
+    background-color: #D71313;
+    color: white;
+}
