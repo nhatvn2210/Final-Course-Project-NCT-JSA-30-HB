@@ -1,4 +1,18 @@
 /* Shop page style */
+/* Search style */
+.search-form .input{
+    border: .3px solid #000;
+    border-radius: 25px;
+    min-height: 50px;
+}
+.search-form .search-input{
+    border: none;
+    width: 95%;
+}
+.search-form .search-input:focus{
+    outline: none;
+}
+/* Product list */
 .render-product-list {
     width: 100%;
     list-style: none;

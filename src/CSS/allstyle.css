@@ -13,15 +13,17 @@
 }
 
 /* Heading 1 */
-.h1 {
+.h1,
+.heading {
     font-weight: bolder !important;
     text-align: center;
 }
 
 /* Container */
-main{
+main {
     margin: 80px;
 }
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -54,7 +56,7 @@ main{
     justify-content: space-around;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
@@ -62,9 +64,10 @@ main{
     align-items: center;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
+
 /* Position */
 .position-fixed {
     position: fixed;
