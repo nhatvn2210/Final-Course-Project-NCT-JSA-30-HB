@@ -29,9 +29,11 @@ function insertNav() {
                 <li class="menu__item">
                     <a href="./shop.html" class="decoration-none color-black">Shop</a>
                 </li>
+                <!--
                 <li class="menu__item">
                     <a href="./blog.html" class="decoration-none color-black">Blog</a>
                 </li>
+                -->
                 <li class="menu__item">
                     <a href="./contact.html" class="decoration-none color-black">Contact</a>
                 </li>
