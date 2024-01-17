@@ -21,7 +21,8 @@ function handleSignin(event) {
         // Compare
         if (currentUsername == username && currentPassword == password) {
             alert("Đăng nhập thành công!");
-            window.location.replace("../HTML/index.html");
+            localStorage.setItem("current-signin-account", JSON.stringify(currentUsername));
+            window.location.replace("/index.html");
             return ;
         }
     }

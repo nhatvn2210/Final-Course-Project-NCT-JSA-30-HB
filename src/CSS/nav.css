@@ -12,6 +12,8 @@ nav {
 }
 
 nav .menu {
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-transform: capitalize;
     width: 40%;
@@ -31,9 +33,10 @@ nav .signin_signup {
 }
 
 /* Dropdown style */
-.has-dropdown{
+.has-dropdown {
     position: relative;
 }
+
 .dropdown-container {
     list-style: none;
     padding: 0;
@@ -41,28 +44,42 @@ nav .signin_signup {
     display: none;
 }
 
-.dropdown-arrow{
+.dropdown-arrow {
     border: none;
     background-color: transparent;
     font-size: 1em;
     transition: rotate .3s;
 }
 
-.has-dropdown:hover .dropdown-arrow{
+.has-dropdown:hover .dropdown-arrow {
     rotate: 90deg;
 }
 
-.has-dropdown .dropdown-container li{
+.has-dropdown .dropdown-container li {
     transition: background-color .3s, color .3s;
     padding: 10px;
 }
-.has-dropdown:hover .dropdown-container{
+
+.has-dropdown:hover .dropdown-container {
     display: block;
     position: absolute;
+    min-width: 100%;
     width: max-content;
     background-color: #FFFFFF;
 }
-.has-dropdown:hover .dropdown-container li:hover{
+
+.has-dropdown:hover .dropdown-container li:hover {
     background-color: #D71313;
     color: white;
+}
+
+/* Sign out button style */
+.sign-out-button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    text-align: left;
 }

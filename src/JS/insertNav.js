@@ -41,7 +41,7 @@ function insertNav() {
                     <a href="./music.html" class="decoration-none color-black">Music</a>
                 </li>
             </ul>
-            <div class="signin_signup d-flex">
+            <div class="signin_signup d-flex user-authentication">
                 <a href="./signin.html" class="decoration-none color-black">Sign In</a>
                 <p> / </p>
                 <a href="./signup.html" class="decoration-none color-black">Sign Up</a>

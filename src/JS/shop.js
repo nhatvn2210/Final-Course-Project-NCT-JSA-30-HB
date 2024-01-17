@@ -59,11 +59,42 @@ let productList = [
         rate: 4,
         price: 90000,
         description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, saepe? Aliquam commodi ex quaerat provident facilis, dicta ad iste assumenda consequuntur amet eveniet voluptatibus beatae accusamus officia tenetur voluptatum fugiat?",
+    },
+    {
+        id: "0008",
+        imgSrc: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lq1dltm5gg1j52",
+        name: "Nón lá Việt Nam",
+        rate: 5,
+        price: 30000,
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, saepe? Aliquam commodi ex quaerat provident facilis, dicta ad iste assumenda consequuntur amet eveniet voluptatibus beatae accusamus officia tenetur voluptatum fugiat?",
+    },
+    {
+        id: "0009",
+        imgSrc: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqf0x1zoschjeb",
+        name: "Cành đào Nhật Tân",
+        rate: 5,
+        price: 554000,
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, saepe? Aliquam commodi ex quaerat provident facilis, dicta ad iste assumenda consequuntur amet eveniet voluptatibus beatae accusamus officia tenetur voluptatum fugiat?",
+    },
+    {
+        id: "0010",
+        imgSrc: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp7sv7u8c123ef",
+        name: "Hoa mai kẽm nhung",
+        rate: 4,
+        price: 80000,
+        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, saepe? Aliquam commodi ex quaerat provident facilis, dicta ad iste assumenda consequuntur amet eveniet voluptatibus beatae accusamus officia tenetur voluptatum fugiat?",
     }
 ];
 // Set the list to local storage
 productList = localStorage.setItem('product-list', JSON.stringify(productList));
 // Function
+// Add to cart
+const handleAddToCart = (productId) => {
+    const selectedProduct = productList.find(product => product.id == productId);
+  
+    productsCart.push(selectedProduct);
+    localStorage.setItem('products-cart', JSON.stringify(productsCart));
+}
 // Render product list
 function renderProduct(selectedList) {
     // Declare a variable to store the elements
@@ -74,6 +105,7 @@ function renderProduct(selectedList) {
         let productName = selectedList[i].name;
         let productRate = selectedList[i].rate;
         let productPrice = selectedList[i].price;
+        let productId = selectedList[i].id;
         htmls += `
         <li class="product-item">
             <div class="img" style="background-image: url(${imgURL}) ;"></div>
@@ -87,7 +119,14 @@ function renderProduct(selectedList) {
         htmls += `</div>
                 <p class="price">${productPrice}<i class="fa-solid fa-dong-sign" style="color: #000000;"></i></p>
             </div>
-        </li>`
+        `
+        htmls += 
+        `
+                <button class="add-cart" onclick="handleAddToCart(${productId})">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </button>
+            </li>
+        `
     }
     // Add to HTML
     renderProductList.innerHTML = htmls;
