@@ -8,7 +8,7 @@ function insertNav() {
     <div class="container">
         <nav class="d-flex justify-between items-center">
             <div class="logo">
-                <img src="../assets/images/logo.png" alt="">
+                <img src="./assets/images/logo.png" alt="">
             </div>
             <ul class="menu d-flex justify-between">
                 <li class="menu__item has-dropdown">
@@ -16,13 +16,13 @@ function insertNav() {
                     <i class="fa-solid fa-chevron-right dropdown-arrow"></i>
                     <ul class="dropdown-container">
                         <li>
-                            <a href="../HTML/index.html#traditional-food" class="color-black decoration-none">Món ăn truyền thống</a>
+                            <a href="./HTML/index.html#traditional-food" class="color-black decoration-none">Món ăn truyền thống</a>
                         </li>
                         <li>
-                            <a href="../HTML/index.html#traditional-clothes" class="color-black decoration-none">Trang phục truyền thống</a>
+                            <a href="./HTML/index.html#traditional-clothes" class="color-black decoration-none">Trang phục truyền thống</a>
                         </li>
                         <li>
-                            <a href="../HTML/index.html#traditional-festival" class="color-black decoration-none">Lễ hội truyền thống</a>
+                            <a href="./HTML/index.html#traditional-festival" class="color-black decoration-none">Lễ hội truyền thống</a>
                         </li>
                     </ul>
                 </li>
@@ -41,9 +41,9 @@ function insertNav() {
                     <a href="./music.html" class="decoration-none color-black">Music</a>
                 </li>
             </ul>
-            <div class="signin_signup d-flex user-authentication">
+            <div class="signin_signup d-flex items-center user-authentication">
                 <a href="./signin.html" class="decoration-none color-black">Sign In</a>
-                <p> / </p>
+                <p class="no-margin"> / </p>
                 <a href="./signup.html" class="decoration-none color-black">Sign Up</a>
             </div>
         </nav>

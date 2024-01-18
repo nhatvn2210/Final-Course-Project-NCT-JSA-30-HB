@@ -85,6 +85,15 @@ main {
     color: #000;
 }
 
+/* No margin, padding */
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
 /* Break div */
 .break-div {
     height: 10vw;
