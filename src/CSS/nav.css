@@ -1,6 +1,6 @@
 /* Header style */
 header {
-    background-image: url(./assets/images/navbar-background.jpg);
+    background-image: url(/assets/images/navbar-background.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: center;
