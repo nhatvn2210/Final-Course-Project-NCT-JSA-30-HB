@@ -130,3 +130,8 @@ main {
     height: 100vh;
     z-index: -99;
 }
+/* Style element */
+fieldset{
+    border: .5px solid gray !important;
+    border-radius: 8px;
+}

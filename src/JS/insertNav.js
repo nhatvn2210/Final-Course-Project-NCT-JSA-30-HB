@@ -16,13 +16,13 @@ function insertNav() {
                     <i class="fa-solid fa-chevron-right dropdown-arrow"></i>
                     <ul class="dropdown-container">
                         <li>
-                            <a href="./HTML/index.html#traditional-food" class="color-black decoration-none">Món ăn truyền thống</a>
+                            <a href="./index.html#traditional-food" class="color-black decoration-none">Món ăn truyền thống</a>
                         </li>
                         <li>
-                            <a href="./HTML/index.html#traditional-clothes" class="color-black decoration-none">Trang phục truyền thống</a>
+                            <a href="./index.html#traditional-clothes" class="color-black decoration-none">Trang phục truyền thống</a>
                         </li>
                         <li>
-                            <a href="./HTML/index.html#traditional-festival" class="color-black decoration-none">Lễ hội truyền thống</a>
+                            <a href="./index.html#traditional-festival" class="color-black decoration-none">Lễ hội truyền thống</a>
                         </li>
                     </ul>
                 </li>
