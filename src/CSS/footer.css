@@ -1,0 +1,55 @@
+/* Footer Style */
+footer {
+    background-color: white;
+    padding: 20px;
+    min-height: 250px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+iframe {
+    width: 100%;
+    min-height: 300px;
+}
+
+.video {
+    width: 50%;
+}
+
+.comment {
+    width: 40%;
+}
+
+.comment p {
+    font-size: 20px;
+}
+
+.comment-input {
+    border: none;
+}
+
+.comment-submit {
+    color: white;
+    background-color: #D80032;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    transition: opacity 2s top 2s;
+}
+
+.comment-input:focus {
+    outline: none;
+}
+
+.comment .content {
+    border: .5px gray solid;
+    font-size: 16px !important;
+    width: max-content;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.comment-submit:hover {
+    opacity: .7;
+    position: relative;
+    top: -3px;
+}

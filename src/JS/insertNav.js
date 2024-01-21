@@ -1,7 +1,7 @@
 // DOM
 const headerElement = document.querySelector('.header');
+const footerElement = document.querySelector('.footer');
 // Tester
-console.log(document.querySelector('.header'));
 // Insert Navigation to every necessary pages
 function insertNav() {
     let htmls = `
@@ -52,5 +52,23 @@ function insertNav() {
     headerElement.innerHTML = htmls;
     headerElement.classList.add('position-fixed');
 }
+function insertFooter(){
+    let htmls = `
+        <div class="container d-flex justify-evenly">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/IHEOZ0O8APU?si=w3AU-TZjCjflz3-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <form action="" class="comment">
+                <p>Bạn có thể cho một lời nhận xét được chứ?</p>
+                <div class="content">
+                    <input type="text" class="comment-input" name="" id="" placeholder="Leave your message here">
+                    <input type="submit" value="Send" class="comment-submit">
+                </div>
+            </form>
+        </div>
+    `
+    footerElement.innerHTML = htmls;
+}
 // Main script
 insertNav();
+insertFooter();

@@ -22,7 +22,7 @@ function handleSignin(event) {
         if (currentUsername == username && currentPassword == password) {
             alert("Đăng nhập thành công!");
             localStorage.setItem("current-signin-account", JSON.stringify(currentUsername));
-            window.location.replace("/index.html");
+            window.location.replace("./index.html");
             return ;
         }
     }

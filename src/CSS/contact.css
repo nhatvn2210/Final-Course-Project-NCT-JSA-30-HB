@@ -31,3 +31,16 @@
 .subject {
     width: 100%;
 }
+
+.submit-button{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+}
+.submit-button:hover{
+    opacity: .7;
+    position: relative;
+    top: -5px;
+}

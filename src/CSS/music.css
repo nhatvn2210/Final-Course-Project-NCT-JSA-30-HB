@@ -1,0 +1,36 @@
+/* Music store */
+.search-form .input {
+    border: .3px solid #000;
+    border-radius: 25px;
+    min-height: 50px;
+}
+
+.search-form .search-input {
+    border: none;
+    width: 95%;
+}
+
+.search-form .search-input:focus {
+    outline: none;
+}
+
+/* Music List */
+.music-list {
+    list-style: none;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.music-element {
+    width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.music-element .video-frame,
+.music-element .video-frame iframe {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
