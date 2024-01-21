@@ -32,6 +32,10 @@ nav .signin_signup {
     width: 20%;
 }
 
+p {
+    margin: 0 !important;
+}
+
 /* Dropdown style */
 .has-dropdown {
     position: relative;
